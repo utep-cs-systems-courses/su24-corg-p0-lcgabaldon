@@ -31,7 +31,7 @@ int main()
     case 'c':
       puts("You selected chars:");
       for (char c = 'a'; c < 'd'; c++)
-	      print_char_8x12(c);
+	      print_char_11x16(c);
       break;
     case 'q':
       puts("Bye!");
